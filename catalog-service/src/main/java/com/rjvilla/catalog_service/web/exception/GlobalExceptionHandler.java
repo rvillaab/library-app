@@ -1,10 +1,8 @@
 package com.rjvilla.catalog_service.web.exception;
 
 import com.rjvilla.catalog_service.domain.ProductNotFoundException;
-
 import java.net.URI;
 import java.time.Instant;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
 import org.springframework.web.bind.annotation.ExceptionHandler;
